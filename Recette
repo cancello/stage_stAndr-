@@ -1,0 +1,19 @@
+#
+# Ici je determine mes variables 
+
+lait = 50 
+farine = 200 
+beure =  80
+oeufs = 1  
+sucre = 100
+
+
+#Je demande a l'utilisateur son input
+personnes = int(input("Entre le nombre de personnes:"))
+
+# Afficher les resultats 
+print ("lait ="), lait * personnes, ("litre")
+print ("oeufs ="), oeufs * personnes
+print ("farine ="), farine * personnes, ("gramme")
+print ("beure ="), beure * personnes, ("gramme")
+print ("sucre ="), sucre * personnes, ("gramme")
